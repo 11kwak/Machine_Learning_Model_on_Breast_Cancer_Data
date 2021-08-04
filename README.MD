@@ -1,21 +1,28 @@
 # Machine Learning Model on Breast Cancer Data
 
-## 목표 : K-Nearest Neighbor 모델 구축
-### 데이터 구조
-#### - 데이터: 위스콘신 대학교에서 제공한 유방암 진단결과
-#### - 관측치 개수: 569개
-#### - 변수 개수: 32개(ID:진단결과, 30개의 실측변수값)
+## Building a K-Nearest Neighbor Model
+### Data Structure
+#### - Data: Breast Cancer Diagnosis Results from the University of Wisconsin
+#### - Number of Observations: 569
+#### - Number of Variables: 32
 
 
 
-## 1. 데이터 전처리 
-## 2. K-Nearest Neighbor 모델 구축 
-#### - k 개수 선정 " 인접한 학습데이터를 몇 개까지 탐색할 것인가?"
-#### - Distance measure 선정 "데이터 간 거리를 어떻게 측정할 것인가?" 
-## 3. 예측 결과 평가 및 weighted KNN 구축 
+## 1. Data Preprocessing
+![1](https://user-images.githubusercontent.com/87745990/128222238-745334c0-451f-4016-9cb6-8d1fd8e24431.png)
+
+
+## 2. K-Nearest Neighbor Model
+#### - Find Best K
+#### - Find Best Distance Measure 
+![2](https://user-images.githubusercontent.com/87745990/128222290-e8af63a0-3050-4177-99ec-c01b225bef7e.png)
+
+
+
+## 3. Building a Weighted KNN 
   
 
-
+![3](https://user-images.githubusercontent.com/87745990/128222317-e5a622e3-5133-4f9d-8635-35f95dfd30b1.png)
 
 
 
@@ -23,13 +30,11 @@
 ## Tools
 
 - Python 3.9.6
-- VSCode
+- Jupyter Notebook
 
-## Credits
+## Reference
 
-- SUANLAB YOUTUBE 
+- Korea Univ. Data Mining & Quality Analytics Lab.  
 
 ## License
-- Just Fan Game, I don't have the copyright on all sounds and photos in the game.
-- If there is a copyright issue, please send me an e-mail one1e@naver.com 
-- I love all the soccer players. Son7 Fighting!!!
+- Just Analysis Data
